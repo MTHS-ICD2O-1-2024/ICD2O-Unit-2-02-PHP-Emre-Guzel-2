@@ -17,8 +17,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Hello world in PHP </title>
+  <link rel="stylesheet" href="css/style.css?f">
+  <title>Hello world in js </title>
 </head>
 
 <body>
@@ -26,29 +26,24 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Hello world in PHP</span>
+        <span class="mdl-layout-title">The "Hello, World!" program, PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
-      <!-- Simple Textfield for integers-->
-      <form action="answer.php" method="GET">
-        <div class="mdl-textfield mdl-js-textfield">
-          <!-- input pattern attribute -->
-          <br />
-          <!-- Accent-colored raised button with ripple -->
-          <button id="btn-click"
-            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            type="submit">
-            Click here
-          </button>
-        </div>
-      </form>
-      <div class="right-image">
-            <img src="./images/Hello_World_Brian_Kernighan_1978.jpg" alt="Hello World">
-          </div>
-      <br />
+      <div class="page-content">
+        <?php
+        echo "Hello,World!";
+        ?>
+      </div>
+      <div class="page-content-answer">
+        <a href="./index.php">Return ...</a>
+      </div>
+      <div class="right-image ">
+        <img src="./images/Hello_World_Brian_Kernighan_1978.jpg" class="pad" alt="Hello World">
+      </div>
     </main>
   </div>
+
 </body>
 
 </html>
