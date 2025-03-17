@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Math program in PHP " />
+  <meta name="description" content="Hello world in JS " />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Emre Guzel" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -18,7 +18,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
-  <title>Math program in PHP</title>
+  <title>Math Calculator </title>
 </head>
 
 <body>
@@ -26,35 +26,18 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">HMath program in PHP</span>
+        <span class="mdl-layout-title">Math Calculator</span>
       </div>
     </header>
     <main class="mdl-layout__content">
-      <!-- Simple Textfield for integers-->
-      <form action="answer.php" method="GET">
-        <div class="mdl-textfield mdl-js-textfield">
-          <!-- input pattern attribute -->
-          <br />
-          <!-- Accent-colored raised button with ripple -->
-          <?php
-          echo '<p> ' . 'Perimeter is...' . '</p>';
-          ?>
-          <?php
-          echo '<p> ' . 'Area is...' . '</p>';
-          ?>
-          <button id="btn-click"
-            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            type="submit">
-            Calculate
-          </button>
-        </div>
-      </form>
       <div class="right-image">
-        <img src="./images/area_and_perimeter.png" alt="Calculation">
       </div>
+      <div class="page-content">Hello, World in php</div>
       <br />
+      <div class="page-content-answer">
+        <a href="./index.php">Return ...</a>
+      </div>
     </main>
-  </div>
 </body>
 
 </html>
