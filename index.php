@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Hello world in JS " />
+  <meta name="description" content="Math program in PHP " />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Emre Guzel" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -18,7 +18,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
-  <title>Hello world in PHP </title>
+  <title>Math program in PHP</title>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Hello world in PHP</span>
+        <span class="mdl-layout-title">HMath program in PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
@@ -44,8 +44,8 @@
         </div>
       </form>
       <div class="right-image">
-            <img src="./images/Hello_World_Brian_Kernighan_1978.jpg" alt="Hello World">
-          </div>
+        <img src="./images/area_and_perimeter.png" alt="Calculation">
+      </div>
       <br />
     </main>
   </div>
