@@ -42,6 +42,7 @@
           <?php
           echo '<p> ' . 'Area is...' . '</p>';
           ?>
+          <br>
           <button id="btn-click"
             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
             type="submit">
