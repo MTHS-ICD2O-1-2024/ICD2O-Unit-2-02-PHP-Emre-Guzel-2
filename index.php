@@ -36,10 +36,12 @@
           <!-- input pattern attribute -->
           <br />
           <!-- Accent-colored raised button with ripple -->
+          <?php echo '<p>6 + 5 = ' . (6 + 5) . '</p>'; ?>
+          <?php echo '<p>7 - 3 =  ' . (7 - 3) . '</p>'; ?>
           <button id="btn-click"
             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
             type="submit">
-            Click here
+            Calculate
           </button>
         </div>
       </form>
