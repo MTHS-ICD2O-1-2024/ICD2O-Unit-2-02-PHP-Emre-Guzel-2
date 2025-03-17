@@ -32,10 +32,18 @@
     <main class="mdl-layout__content">
       <div class="right-image">
       </div>
-      <div class="page-content">Hello, World in php</div>
+      <?php
+      echo '<p>' . (2 * (5 + 3)), "cm" . '</p>';
+      ?>
+      <?php
+      echo '<p>' . 5 * 3, "cm^2" . '</p>';
+      ?>
       <br />
       <div class="page-content-answer">
         <a href="./index.php">Return ...</a>
+      </div>
+      <div class="right-image">
+        <img src="./images/area_and_perimeter.png" alt="Calculation">
       </div>
     </main>
 </body>
